@@ -240,3 +240,110 @@ body{
 .header-item-contact-list{
     display: block;
 }
+.menu-slide{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    height: 10000px;
+    width: 325px;
+}
+.menu-slide-heading{
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+}
+.menu-slide-heading-title{
+    color: #9a9a9a;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    line-height: 2.5rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.menu-slide-heading-bold{
+    color: #555555;
+    font-size: 2.5rem;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    
+    
+}
+.menu-slide-heading-bold::after{
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: #ffd105;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 50%;
+    z-index: -9;
+}
+.menu-slide-heading-icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2.5rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.menu-slide-content{
+    padding: 0 15px;
+}
+.menu-slide-content-list{
+    list-style: none;
+    padding-left: 0;
+    
+}
+.menu-slide-content-item{
+    display: flex;
+    padding: 15px;
+}
+.menu-slide-content-item-img{
+    width: 100px;
+    height: 100px;
+}
+.menu-slide-content-item-box{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu-slide-content-box-name{
+    color: #555555;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+    
+}
+.menu-slide-content-box-price{
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);
+    border-radius: 15px;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    color: #ffffff;
+    
+}
+.menu-slide-content-box-icon{
+    font-size: 1.7rem;
+}
+.menu-slide-content-item-box span{
+    color: #9a9a9a;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
+.menu-slide-content-center{
+    padding: 15px;
+}
+.menu-slide-content-center-img{
+    width: 100%;
+    height: 100%;
+}
