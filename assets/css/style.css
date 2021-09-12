@@ -75,7 +75,9 @@ body{
 .header-item-packages,
 .header-item-shop,
 .header-item-about,
-.header-item-page{
+.header-item-page,
+.header-item-new,
+.header-item-contact{
     position: absolute;
     background-color: #ffffff;
     width: 190px;
@@ -83,7 +85,9 @@ body{
 .header-item-packages-list,
 .header-item-shop-list,
 .header-item-about-list,
-.header-item-page-list{
+.header-item-page-list,
+.header-item-new-list,
+.header-item-contact-list{
     padding-left: 0;
     list-style: none;
     box-shadow: 0px 2px 5px #f1f1f1;
@@ -95,7 +99,11 @@ body{
 .header-item-page-link,
 .header-item-packages-item-submenu-link,
 .header-item-page-item-submenu-link,
-.header-item-page-item-submenu-link{
+.header-item-page-item-submenu-link,
+.header-item-new-link,
+.header-item-new-item-submenu-link,
+.header-item-contact-link
+{
     display: block;
     padding: 15px 25px;
     text-decoration: none;
@@ -106,7 +114,9 @@ body{
 .header-item-packages-item,
 .header-item-shop-item,
 .header-item-about-item,
-.header-item-page-item{
+.header-item-page-item,
+.header-item-new-item,
+.header-item-contact-item{
     border-bottom: 1px solid #f1f1f1;
     position: relative;
 }
@@ -115,7 +125,11 @@ body{
 .header-item-shop-link:hover,
 .header-item-about-link:hover,
 .header-item-page-link:hover,
-.header-item-page-item-submenu-item:hover{
+.header-item-page-item-submenu-item:hover,
+.header-item-new-link:hover,
+.header-item-new-item-submenu-item:hover,
+.header-item-contact-link:hover
+{
     background-color: #f1f1f1;
     transition: .2s;
 }
@@ -147,7 +161,8 @@ body{
 }
 .header-item-packages-item-icon,
 .header-item-page-item-icon1,
-.header-item-page-item-icon2{
+.header-item-page-item-icon2,
+.header-item-new-item-icon{
     position: absolute;
     top: 39%;
     right: 19px;
@@ -156,7 +171,8 @@ body{
 }
 .header-item-packages-item-submenu,
 .header-item-shop-item-submenu,
-.header-item-page-item-submenu{
+.header-item-page-item-submenu,
+.header-item-new-item-submenu{
     position: absolute;
     width: 190px;
     right: -192px;
@@ -210,5 +226,17 @@ body{
 }
 .header-item-page-item:nth-child(9):hover 
 .header-item-page-item-submenu{
+    display: block;
+}
+.header-item:nth-child(6):hover 
+.header-item-new-list{
+    display: block;
+}
+.header-item-new-item:nth-child(2):hover 
+.header-item-new-item-submenu{
+    display: block;
+}
+.header-item:nth-child(7):hover 
+.header-item-contact-list{
     display: block;
 }
