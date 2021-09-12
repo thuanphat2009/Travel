@@ -72,18 +72,30 @@ body{
 .header-item{
     position: relative;
 }
-.header-item-packages,.header-item-shop{
+.header-item-packages,
+.header-item-shop,
+.header-item-about,
+.header-item-page{
     position: absolute;
     background-color: #ffffff;
     width: 190px;
 }
-.header-item-packages-list,.header-item-shop-list{
+.header-item-packages-list,
+.header-item-shop-list,
+.header-item-about-list,
+.header-item-page-list{
     padding-left: 0;
     list-style: none;
     box-shadow: 0px 2px 5px #f1f1f1;
     display: none;
 }
-.header-item-packages-link,.header-item-shop-link{
+.header-item-packages-link,
+.header-item-shop-link,
+.header-item-about-link,
+.header-item-page-link,
+.header-item-packages-item-submenu-link,
+.header-item-page-item-submenu-link,
+.header-item-page-item-submenu-link{
     display: block;
     padding: 15px 25px;
     text-decoration: none;
@@ -91,11 +103,19 @@ body{
     font-size: 1.4rem;
     letter-spacing: 2px;
 }
-.header-item-packages-item,.header-item-shop-item{
+.header-item-packages-item,
+.header-item-shop-item,
+.header-item-about-item,
+.header-item-page-item{
     border-bottom: 1px solid #f1f1f1;
     position: relative;
 }
-.header-item-packages-item:hover , .header-item-packages-item-submenu-item:hover ,.header-item-shop-link:hover{
+.header-item-packages-item:hover ,
+.header-item-packages-item-submenu-item:hover ,
+.header-item-shop-link:hover,
+.header-item-about-link:hover,
+.header-item-page-link:hover,
+.header-item-page-item-submenu-item:hover{
     background-color: #f1f1f1;
     transition: .2s;
 }
@@ -112,14 +132,31 @@ body{
     border-radius: 5px;
     line-height: 1rem;
 }
-.header-item-packages-item-icon{
+.header-item-about-item:first-child::after{
+    content: 'new';
+    background-color: #1bbc9b;
+    padding: 3px 5px;
+    position: absolute;
+    color: #ffffff;
+    right: 25px;
+    top: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    line-height: 1rem;
+}
+.header-item-packages-item-icon,
+.header-item-page-item-icon1,
+.header-item-page-item-icon2{
     position: absolute;
     top: 39%;
     right: 19px;
     color: #9a9a9a;
     font-size: 1.3rem;
 }
-.header-item-packages-item-submenu,.header-item-shop-item-submenu{
+.header-item-packages-item-submenu,
+.header-item-shop-item-submenu,
+.header-item-page-item-submenu{
     position: absolute;
     width: 190px;
     right: -192px;
@@ -157,5 +194,21 @@ body{
 }
 .header-item-shop-item:nth-child(3):hover 
 .header-item-shop-item-submenu{
+    display: block;
+}
+.header-item:nth-child(4):hover 
+.header-item-about-list{
+    display: block;
+}
+.header-item:nth-child(5):hover 
+.header-item-page-list{
+    display: block;
+}
+.header-item-page-item:nth-child(8):hover 
+.header-item-page-item-submenu{
+    display: block;
+}
+.header-item-page-item:nth-child(9):hover 
+.header-item-page-item-submenu{
     display: block;
 }
