@@ -11,7 +11,7 @@ html{
 body{
     margin: 0;
 }
-
+/* header */
 #heading{
     background: url('../img/parallax-2.jpg');
     height: 100vh;
@@ -249,6 +249,10 @@ body{
     height: 100%;
     width: 325px;
     overflow-y: auto;
+    display: none;
+}
+.menu-slide.active{
+    display: block;
 }
 .menu-slide::-webkit-scrollbar {
     width: 5px;
@@ -339,7 +343,7 @@ body{
     text-decoration: none;
     background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);
     border-radius: 15px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     letter-spacing: 2px;
     color: #ffffff;
     
@@ -408,4 +412,55 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
+}
+.menu-slide-content-center-backgroung{
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+    animation: fadeIn ease-out 1s;
+
+}
+.menu-slide-content-center-backgroung-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+.menu-slide-content-center-backgroung-title{
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 550;
+    margin: 0;
+}
+.menu-slide-content-center-backgroung-content-link{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 2.6rem;
+}
+.menu-slide-content-center-backgroung-view{
+    padding: 9px 20px;
+    background: #ffffff;
+    color: #14b9d5;
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 20px;
+}
+.menu-slide-content-center:hover .menu-slide-content-center-backgroung{
+    display: flex;
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
 }
