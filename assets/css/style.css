@@ -464,3 +464,106 @@ body{
     }
 
 }
+.heading-content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top:60%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);   
+}
+.heading-content-category{
+    display: flex;
+}
+.heading-content-title{
+    font-size: 5rem;
+    color: #ffffff;
+    margin: 0;
+    line-height: 5rem;
+    margin-bottom: 35px;
+}
+.heading-content-descrip{
+    font-size: 2rem;
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 65px;
+}
+.heading-content-search{
+    margin-bottom: 55px;
+    width: 390px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    outline: none;
+    line-height: 2.2rem;
+    font-size: 1.5rem;
+    border: none;
+    
+}
+.heading-content-search-input{
+    position: relative;
+}
+.heading-content-search-icon{
+    position: absolute;
+    right: 0;
+    top: -9%;
+    font-size: 2rem;
+    padding: 20px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.heading-content-category-box{
+    padding: 15px;
+    
+}
+.heading-content-category-img{
+    width: 40px;
+}
+.heading-content-category-box-main{
+    box-sizing: border-box;
+    padding: 20px;
+    background: rgba(0,0,0,0.21);
+    text-align: center;
+    display: block;
+    width: 117px;
+    text-decoration: none;
+}
+.heading-content-category-descrip{
+    margin: 0;
+    font-size: 1.1rem;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.heading-content-search-history{
+    position: absolute;
+    width: 88%;
+    background: #ffffff;
+    top: 43px;
+    right: 24px;
+    display: none;
+}
+.heading-content-search-history-list{
+    list-style: none;
+    padding-left: 0;
+}
+.heading-content-search-history-link{
+    text-decoration: none;
+    color: #a3a3a3;
+    font-size: 1.6rem;
+    padding: 10px 20px;
+    display: block;
+}
+.heading-content-search-history-link:hover{
+    background: #ba71da;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.heading-content-search:focus ~.heading-content-search-history{
+    display: block;
+}
