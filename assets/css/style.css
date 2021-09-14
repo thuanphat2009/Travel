@@ -567,3 +567,32 @@ body{
 .heading-content-search:focus ~.heading-content-search-history{
     display: block;
 }
+#destination{
+    margin-top: 60px;
+
+}
+.destination-heading{
+    text-align: center;
+}
+.destination-heading-title{
+    font-size: 1.4rem;
+    color: #9a9a9a;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.destination-heading-descip{
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: #555555;
+    position: relative;
+}
+.destination-heading-descip::after{
+    content: "";
+    background: #1bbc9b;
+    width: 259px;
+    height: 5px;
+    position: absolute;
+    right: 587px;
+    top: 16px;
+    z-index: -1;
+}
