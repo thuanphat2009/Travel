@@ -627,3 +627,53 @@ body{
     }
 
 }
+#banner{
+    margin-top: 60px;
+    background:url('../img/parallax-search-2.jpg') center / cover no-repeat;
+    width: 100%;
+    height: 234px;
+    display: flex;
+}
+.banner-content{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-content-left{
+    color: #ffffff;
+    margin-right: 140px;
+}
+.banner-content-left-heading{
+    font-size: 4.5rem;
+}
+.banner-content-left-main{
+    font-size: 5rem;
+    position: relative;
+    z-index: 1;
+}
+.banner-content-left-main::before{
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 180px;
+    background: #f76570;
+    bottom: -15px;
+    right: -2px;
+    z-index: -1;
+}
+.banner-content-link{
+    text-decoration: none;
+    color: #f76570;
+    padding: 15px 35px;
+    background: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    border-radius: 38px;
+    letter-spacing: 2px;
+    display: block;
+}
+.banner-content-right{
+    margin-right: 70px;
+}
