@@ -677,3 +677,89 @@ body{
 .banner-content-right{
     margin-right: 70px;
 }
+#countdown{
+    display: flex;
+    
+    width: 1200px;
+    margin: 60px auto;
+}
+.countdown-left{
+    flex-basis: 40%;
+}
+.countdown-right{
+    flex-basis: 60%;
+}
+.countdown-left-heading{
+
+}
+.countdown-left-heading-title{
+    font-size: 1.4rem;
+    color: #9a9a9a;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.countdown-left-heading-name{
+    color: #555555;
+    font-size: 3.6rem;
+    position: relative;
+    z-index: 1;
+}
+.countdown-left-heading-name::after{
+    position: absolute;
+    content: "";
+    width: 162px;
+    height: 4px;
+    background: #14b9d5;
+    bottom: -4px;
+    left: 34%;
+    z-index: -1;
+}
+.countdown-left-content{
+    padding-top: 10px;
+    margin-right: 90px;
+}
+.countdown-left-content-descrip{
+    font-size: 1.4rem;
+    color: #9a9a9a;
+    word-spacing: 5px;
+    line-height: 2.4rem;
+}
+.countdown-left-footer{
+    display: flex;
+    align-items: baseline;
+    padding: 20px 0 35px 0;
+}
+.countdown-left-footer-price{
+    font-size: 3rem;
+}
+.countdown-left-footer-price-old{
+    opacity: 0.2;
+    text-decoration: line-through;
+}
+.countdown-left-footer-price-new{
+    color: #555555;
+    margin-left: 5px;
+}
+.countdown-left-footer-more{
+    font-size: 1.4rem;
+    color: #555555;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+.countdown-left-book{
+    display: block;
+}
+.countdown-left-book-link{
+    color: #ffffff;
+    padding: 10px 35px;
+    background: #1bbc9b;
+    font-size: 1.4rem;
+    border-radius: 38px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.countdown-sub{
+    
+}
