@@ -657,7 +657,7 @@ body{
     content: "";
     position: absolute;
     height: 5px;
-    width: 180px;
+    width: 200px;
     background: #f76570;
     bottom: -15px;
     right: -2px;
@@ -724,6 +724,7 @@ body{
     color: #9a9a9a;
     word-spacing: 5px;
     line-height: 2.4rem;
+    
 }
 .countdown-left-footer{
     display: flex;
@@ -759,6 +760,10 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     
+}
+.slide-img{
+    width: 750px;
+    height: 410px;
 }
 .countdown-sub{
     
