@@ -712,7 +712,7 @@ body{
     height: 4px;
     background: #14b9d5;
     bottom: -4px;
-    left: 34%;
+    left: 36%;
     z-index: -1;
 }
 .countdown-left-content{
@@ -761,10 +761,46 @@ body{
     text-transform: uppercase;
     
 }
+.countdown-right{
+    position: relative;
+}
 .slide-img{
     width: 750px;
     height: 410px;
 }
-.countdown-sub{
-    
+
+.countdown-right-tab-item{
+    display: none;
+}
+.countdown-right-tab-item.active{
+    display: block;
+}
+.countdown-right-tab-img{
+    width: 750px;
+    height: 410px;
+}
+.countdown-right-tabs{
+    position: absolute;
+    display: flex;
+    right: 37%;
+    top: 6%;
+
+}
+.countdown-right-tab{
+    width: 60px;
+    height: 3px;
+    background: #aaa;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.countdown-right-tab.active{
+    background: #ffffff;
+}
+.countdown-right-box{
+    position: absolute;
+    width: 490px;
+    height: 115px;
+    background: #14b9d5;
+    bottom: -53px;
+    right: 16%;
 }
