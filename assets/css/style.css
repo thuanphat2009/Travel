@@ -847,3 +847,43 @@ body{
 .countdown-right-item:last-child:after{
     content: "";
 }
+#sub-countdow{
+    width: 1200px;
+    margin: auto;
+    margin-top: 115px;
+
+}
+.sub-countdow-list{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+.sub-countdow-item{
+    display: flex;
+    
+}
+.sub-countdow-img{
+    width: 50px;
+    height: 50px;
+}
+.sub-countdow-box{
+    margin-left: 20px;
+}
+.sub-countdow-title{
+    font-size: 2.4rem;
+    color: #555555;
+    margin: 0;
+}
+.sub-countdow-desciption{
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    opacity: 0.6;
+    margin-right: 40px;
+}
+.sub-countdow-link{
+    text-decoration: none;
+    color: #14b9d5;
+    font-size: 1.4rem;
+}
