@@ -1086,6 +1086,17 @@ body{
 .our-package-miniicon.purpose{
     background: #ba71da;
 }
+.our-package-sale{
+    position: absolute;
+    padding: 5px 12px;
+    color: #ffffff;
+    background: #555555;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    border-radius: 38px;
+    top: 17px;
+    right: 19px;
+}
 #footer{
     margin-top: 60px;
     background:url('../img/footer.jpg') center / cover no-repeat;
