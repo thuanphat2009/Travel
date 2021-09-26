@@ -69,3 +69,34 @@ btnSlide.forEach(function(value,index){
 
 })
 
+var countDownDate = new Date("Sep 20, 2022 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  $('.countdown-right-item-day').innerHTML = days
+  $('.countdown-right-item-hours').innerHTML = hours
+  $('.countdown-right-item-minutes').innerHTML = minutes
+  $('.countdown-right-item-seconds').innerHTML = seconds
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    $('.countdown-right-item-day').innerHTML = '000'
+    $('.countdown-right-item-hours').innerHTML = '00'
+    $('.countdown-right-item-minutes').innerHTML = '00'
+    $('.countdown-right-item-seconds').innerHTML = '00'
+  }
+}, 1000);
