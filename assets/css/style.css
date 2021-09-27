@@ -120,6 +120,7 @@ body{
 .header-item-contact-item{
     border-bottom: 1px solid #f1f1f1;
     position: relative;
+    z-index: 99;
 }
 .header-item-packages-item:hover ,
 .header-item-packages-item-submenu-item:hover ,
@@ -502,9 +503,12 @@ body{
     font-size: 1.5rem;
     border: none;
     
+    
 }
 .heading-content-search-input{
     position: relative;
+    
+    
 }
 .heading-content-search-icon{
     position: absolute;
