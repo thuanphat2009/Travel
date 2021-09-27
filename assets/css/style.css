@@ -244,15 +244,15 @@ body{
 .menu-slide{
     position: fixed;
     top: 0;
-    right: 0;
+    right: -340px;
     background-color: #ffffff;
     height: 100%;
     width: 325px;
     overflow-y: auto;
-    display: none;
+    transition: all 500ms linear;
 }
 .menu-slide.active{
-    display: block;
+   right: 0;
 }
 .menu-slide::-webkit-scrollbar {
     width: 5px;
