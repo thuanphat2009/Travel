@@ -82,6 +82,7 @@ body{
     position: absolute;
     background-color: #ffffff;
     width: 190px;
+    z-index: 2;
 }
 .header-item-packages-list,
 .header-item-shop-list,
@@ -120,7 +121,7 @@ body{
 .header-item-contact-item{
     border-bottom: 1px solid #f1f1f1;
     position: relative;
-    z-index: 99;
+   
 }
 .header-item-packages-item:hover ,
 .header-item-packages-item-submenu-item:hover ,
