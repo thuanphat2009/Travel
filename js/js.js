@@ -6,7 +6,7 @@ const menuClose = $('.menu-slide-heading-icon')
 const menu = $('.menu-slide')
 const btnSlide =$$('.countdown-right-tab')
 const slideImg = $$('.countdown-right-tab-item')
-
+const content = $('#content')
 
 var i = 0 ;
 if(btnSlide[i].classList.contains('active') )
@@ -47,8 +47,11 @@ if(slideImg[y].classList.contains('active') )
 
 menuBtn.onclick = function(){
     menu.classList.add('active')
+    
 }
-
+menuBtn.addEventListener('click',function(e){
+    e.stopPropagation()
+})
 menuClose.onclick = function(){
     menu.classList.remove('active')
 }
@@ -100,3 +103,7 @@ var x = setInterval(function() {
     $('.countdown-right-item-seconds').innerHTML = '00'
   }
 }, 1000);
+
+content.onclick = function(){
+    menu.classList.remove('active')
+}
