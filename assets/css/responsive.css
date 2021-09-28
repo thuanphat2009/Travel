@@ -139,7 +139,19 @@
     }
     #sub-countdow{
         margin-top: 370px;
+        width: 100%;
+        padding: 0 25px;
     }
+    .sub-countdow-list{
+        flex-direction: column;
+    }
+    .sub-countdow-desciption{
+        margin-right: 0;
+    }
+    .sub-countdow-item{
+        padding-bottom: 30px;
+    }
+    
 }
 
 
