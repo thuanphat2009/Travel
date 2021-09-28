@@ -55,6 +55,22 @@
     .heading-content-search-history{
         right: 13px;
     }
+    #destination{
+        padding: 0 25px;
+    }
+    .destination-content{
+        width: 100%;
+        grid-template-columns: none;
+    }
+    .destination-heading-descip{
+        line-height: 4rem;
+    }
+    .destination-heading-descip::after{
+        left: 5px;
+        bottom: 6px;
+        right: unset;
+        top: unset;
+    }
 }
 
 
