@@ -30,7 +30,32 @@
     .banner-content-right,.banner-content-left{
         margin: 0;
     }
-   
+    #countdown{
+        flex-direction: column;
+        width: 100%;
+    }
+    .countdown-left-heading-name{
+        line-height: 3.5rem;
+        margin-bottom: 5px;
+    }
+    .countdown-left-heading-name::after{
+        bottom: 2px;
+        left: 0%;
+    }
+    .countdown-left-content{
+        margin: 0;
+    }
+    .countdown-left-content-descrip{
+        padding-top: 15px;
+    }
+    .countdown-right-tab-img{
+        width: 100%;
+        height: unset;
+    }
+    .countdown-right{
+        margin-top: 40px;
+        padding: 0 25px;
+    }
 }
 
 /* Mobile */
@@ -93,7 +118,28 @@
         bottom: 0;
         right: 70px;
     }
-    
+    .countdown-left{
+        padding: 0 35px 0 25px;
+    }
+    .countdown-left-footer-price{
+        font-size: 2.5rem;
+    }
+    .countdown-right-tabs{
+        right: 16%;
+    }
+    .countdown-right-box{
+        width: 270px;
+        right: 0;
+        margin: 0 25px;
+        height: unset;
+        bottom: unset;
+    }
+    .countdown-right-list{
+        flex-direction: column;
+    }
+    #sub-countdow{
+        margin-top: 370px;
+    }
 }
 
 
