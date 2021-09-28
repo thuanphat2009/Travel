@@ -19,6 +19,17 @@
     .heading-content-category{
         flex-direction: column;
     }
+    .banner-content-left-heading,.banner-content-left-main{
+        margin: 0;
+    }
+    .banner-content-left{
+        line-height: 5rem;
+        
+        padding: 0 25px 45px;
+    }
+    .banner-content-right,.banner-content-left{
+        margin: 0;
+    }
    
 }
 
@@ -71,6 +82,18 @@
         right: unset;
         top: unset;
     }
+    .banner-content{
+        flex-direction: column;
+        
+    }
+    #banner{
+        height: 400px;
+    }
+    .banner-content-left-main::before{
+        bottom: 0;
+        right: 70px;
+    }
+    
 }
 
 
