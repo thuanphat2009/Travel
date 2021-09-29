@@ -172,6 +172,20 @@
     .our-package-item{
         margin: 0;
     }
+    .our-package-tag{
+        flex-direction: column;
+        align-items: unset;
+    }
+    .our-package-tag-left{
+        padding-bottom: 15px;
+    }
+    .our-package-miniicon{
+        top: 23%;
+    }
+    .our-package-tag-old-price{
+        right: 85px;
+        bottom: 14px;
+    }
 }
 
 
