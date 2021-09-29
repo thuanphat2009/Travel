@@ -585,11 +585,21 @@ body{
     letter-spacing: 2px;
     font-weight: 400;
 }
-.destination-heading-descip{
+.destination-heading-descip,.package-heading-descip{
     font-size: 3.6rem;
     font-weight: 700;
     color: #555555;
     position: relative;
+}
+.package-heading-descip::after{
+    content: "";
+    background: #1bbc9b;
+    width: 200px;
+    height: 5px;
+    position: absolute;
+    left: 36px;
+    bottom: 5px;
+    z-index: -1;
 }
 .destination-heading-descip::after{
     content: "";
