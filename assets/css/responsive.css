@@ -276,4 +276,15 @@
     #heading{
         height: 115vh;
     }
+    .destination-heading-descip::after{
+        right: 210px;
+    }
+    .destination-content{
+        margin-top: 60px;
+        width: unset;
+        padding: 0 25px;
+    }
+    .destination-content{
+        gap: 15px 15px;
+    }
 }
