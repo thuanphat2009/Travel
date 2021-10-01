@@ -287,4 +287,17 @@
     .destination-content{
         gap: 15px 15px;
     }
+    .banner-content{
+        flex-direction: column;
+    }
+    .banner-content-left-main,.banner-content-left-heading{
+        font-size: 4rem;
+    }
+    .banner-content-left{
+        padding-right: 435px;
+    }
+    .banner-content-left-main::before{
+        bottom: 6px;
+        width: 160px;
+    }
 }
