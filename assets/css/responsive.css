@@ -257,5 +257,23 @@
     .hide-on-tablet {
         display: none;
     }
-    
+    .heading-content{
+        width: 100%;
+    }
+    .heading-content-search-input{
+        width: 80%;
+    }
+    .heading-content-search{
+        width: 100%;
+    }
+    .heading-content-search-history {
+        right: 26px;
+        width: 93%;
+    }
+    .heading-content-category-box-main{
+        width: 564px;
+    }
+    #heading{
+        height: 115vh;
+    }
 }
