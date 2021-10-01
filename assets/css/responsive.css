@@ -306,4 +306,14 @@
     .countdown-left-heading-name::after{
         left: 162px;
     }
+    #sub-countdow{
+        width: unset;
+        padding: 0 25px;
+    }
+    .sub-countdow-list{
+        flex-direction: column;
+    }
+    .sub-countdow-item{
+        margin-bottom: 30px;
+    }
 }
