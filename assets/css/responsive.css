@@ -248,6 +248,10 @@
     .footer-article-main{
         padding: 15px;
     }
+    .package-heading-descip::after{
+        right: 5.5%;
+        bottom: 5px;
+    }
 }
 
 
