@@ -598,7 +598,7 @@ body{
     width: 200px;
     height: 5px;
     position: absolute;
-    right:40.5%;
+    right:39.5%;
     bottom: -5px;
     z-index: -1;
 }
@@ -608,7 +608,7 @@ body{
     width: 259px;
     height: 5px;
     position: absolute;
-    right: 587px;
+    right: 519px;
     top: 16px;
     z-index: -1;
 }
