@@ -84,7 +84,7 @@
         
     }
     #heading{
-        height: 213vh;
+        height: 200vh;
     }
     .heading-content{
         width: 100%;
@@ -120,7 +120,7 @@
         line-height: 4rem;
     }
     .destination-heading-descip::after{
-        left: 5px;
+        left: 33px;
         bottom: 6px;
         right: unset;
         top: unset;
@@ -134,7 +134,7 @@
     }
     .banner-content-left-main::before{
         bottom: 0;
-        right: 70px;
+        right: 129px;
     }
     .countdown-left{
         padding: 0 35px 0 25px;
@@ -146,7 +146,7 @@
         right: 16%;
     }
     .countdown-right-box{
-        width: 270px;
+        width: 88%;
         right: 0;
         margin: 0 25px;
         height: unset;
